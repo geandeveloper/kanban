@@ -1,0 +1,54 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30114.105
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "microservices", "microservices", "{AF6E6038-9357-413A-A959-18E50500E2B5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Kanban.Api", "microservices\Kanban.Api\Kanban.Api.csproj", "{DB1C69BE-3416-4880-A032-2F33E2766FAE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Kanban.Features", "microservices\Kanban.Features\Kanban.Features.csproj", "{FD5E1E81-9024-4DA8-8FBE-0E90FDC9F225}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|Any CPU = Release|Any CPU
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DB1C69BE-3416-4880-A032-2F33E2766FAE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DB1C69BE-3416-4880-A032-2F33E2766FAE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DB1C69BE-3416-4880-A032-2F33E2766FAE}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{DB1C69BE-3416-4880-A032-2F33E2766FAE}.Debug|x64.Build.0 = Debug|Any CPU
+		{DB1C69BE-3416-4880-A032-2F33E2766FAE}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{DB1C69BE-3416-4880-A032-2F33E2766FAE}.Debug|x86.Build.0 = Debug|Any CPU
+		{DB1C69BE-3416-4880-A032-2F33E2766FAE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DB1C69BE-3416-4880-A032-2F33E2766FAE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DB1C69BE-3416-4880-A032-2F33E2766FAE}.Release|x64.ActiveCfg = Release|Any CPU
+		{DB1C69BE-3416-4880-A032-2F33E2766FAE}.Release|x64.Build.0 = Release|Any CPU
+		{DB1C69BE-3416-4880-A032-2F33E2766FAE}.Release|x86.ActiveCfg = Release|Any CPU
+		{DB1C69BE-3416-4880-A032-2F33E2766FAE}.Release|x86.Build.0 = Release|Any CPU
+		{FD5E1E81-9024-4DA8-8FBE-0E90FDC9F225}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FD5E1E81-9024-4DA8-8FBE-0E90FDC9F225}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FD5E1E81-9024-4DA8-8FBE-0E90FDC9F225}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{FD5E1E81-9024-4DA8-8FBE-0E90FDC9F225}.Debug|x64.Build.0 = Debug|Any CPU
+		{FD5E1E81-9024-4DA8-8FBE-0E90FDC9F225}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{FD5E1E81-9024-4DA8-8FBE-0E90FDC9F225}.Debug|x86.Build.0 = Debug|Any CPU
+		{FD5E1E81-9024-4DA8-8FBE-0E90FDC9F225}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FD5E1E81-9024-4DA8-8FBE-0E90FDC9F225}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FD5E1E81-9024-4DA8-8FBE-0E90FDC9F225}.Release|x64.ActiveCfg = Release|Any CPU
+		{FD5E1E81-9024-4DA8-8FBE-0E90FDC9F225}.Release|x64.Build.0 = Release|Any CPU
+		{FD5E1E81-9024-4DA8-8FBE-0E90FDC9F225}.Release|x86.ActiveCfg = Release|Any CPU
+		{FD5E1E81-9024-4DA8-8FBE-0E90FDC9F225}.Release|x86.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{DB1C69BE-3416-4880-A032-2F33E2766FAE} = {AF6E6038-9357-413A-A959-18E50500E2B5}
+		{FD5E1E81-9024-4DA8-8FBE-0E90FDC9F225} = {AF6E6038-9357-413A-A959-18E50500E2B5}
+	EndGlobalSection
+EndGlobal
